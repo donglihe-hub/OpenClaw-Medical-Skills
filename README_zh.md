@@ -5,13 +5,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/issues)
-[![技能数量](https://img.shields.io/badge/技能数量-923-brightgreen?style=for-the-badge)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
+[![技能数量](https://img.shields.io/badge/技能数量-872-brightgreen?style=for-the-badge)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/平台-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/MedClaw-Org)
 
 **最大的开源医疗 AI 技能库，专为 Claude Agent 框架设计。**
 
-*923 个精选技能 · 临床医学 · 基因组学 · 药物发现 · 生物信息学 · 医疗器械*
+*872 个精选技能 · 临床医学 · 基因组学 · 药物发现 · 生物信息学 · 医疗器械*
 
 [English](README.md) | [中文](#)
 
@@ -21,7 +21,7 @@
 
 ## 项目简介
 
-**OpenClaw Medical Skills** 是一个包含 **923 个 AI Agent 技能**的精选集合，覆盖生物医学与临床研究的完整领域。这些技能专为 [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的医学与科研研究伙伴。
+**OpenClaw Medical Skills** 是一个包含 **872 个 AI Agent 技能**的精选集合，覆盖生物医学与临床研究的完整领域。这些技能专为 [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) —— 基于 Claude 的个人 AI 助手框架 —— 设计，能将通用 AI 智能体转变为强大的医学与科研研究伙伴。
 
 每个技能都是一个独立模块（`SKILL.md` 文件），它：
 - 为 Agent 注入专业领域知识与工作流
@@ -168,7 +168,7 @@ Agent 应当列出已安装的技能及其功能说明。
 | BioOS 扩展套件 | 285+ | 端到端流程、肿瘤智能体、临床 AI |
 | ClawBio 管道 | 22 | scRNA 编排、GWAS、祖先分析、药物基因组学 |
 | 模拟与本体论 | 17 | 本体验证、数值求解器、网格生成 |
-| **总计** | **923** | |
+| **总计** | **872** | |
 
 ---
 
@@ -1487,41 +1487,6 @@ Agent 应当列出已安装的技能及其功能说明。
 | virtual-lab-agent | 虚拟实验室智能体，用于体外实验模拟和方案优化。 |
 | data-visualization-expert | 复杂科学和临床数据集的专业数据可视化。 |
 | lobster-bioinformatics | 通过 Lobster AI 运行生物信息分析：scRNA-seq、bulk RNA-seq、文献挖掘、数据集发现、QC 和可视化。 |
-
----
-
-### 医疗器械软件 (AminAlam/meddev-agent-skills, 47个技能)
-
-#### 法规标准
-| 技能 | 描述 |
-|------|------|
-| iec-62304 | IEC 62304医疗器械软件生命周期：A/B/C类控制、开发计划、验证。 |
-| iso-14971 | ISO 14971风险管理：危害识别、风险控制、追溯矩阵、剩余风险。 |
-| fda-premarket | FDA上市前申请（510k/PMA）软件文档、SBOM、网络安全要求。 |
-| eu-mdr | EU MDR软件要求：Rule 11、UDI、GSPR、临床评价、上市后监督。 |
-| iec-62443 | 联网医疗器械IEC 62443工业网络安全：区域、管道、SL等级。 |
-| 21-cfr-part-11 | 21 CFR Part 11电子记录和签名：审计追踪、访问控制、验证。 |
-
-#### 架构与安全设计 (5个)
-safety-classification / separation-of-concerns / state-machines / fault-tolerance / defensive-design
-
-#### 固件 (6个)
-embedded-c / embedded-cpp / rtos-patterns / hardware-abstraction / interrupt-handling / power-management
-
-#### 连接性 (4个)
-ble-medical / wifi-medical / usb-medical / interoperability
-
-#### 安全性 (6个)
-authentication / encryption / secure-boot / secure-ota / key-management / threat-modeling
-
-#### 测试与验证 (7个)
-unit-testing / integration-testing / static-analysis / dynamic-analysis / fuzz-testing / code-coverage / hardware-in-loop
-
-#### 文档与数据合规 (9个)
-design-docs / test-docs / traceability / code-comments / inline-docs / change-control / phi-handling / data-integrity / audit-logging
-
-#### CI/CD (3个)
-pipeline-design / automated-testing / release-management
 
 ---
 

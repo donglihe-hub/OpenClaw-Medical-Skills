@@ -5,13 +5,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/issues)
-[![Skills Count](https://img.shields.io/badge/Skills-923-brightgreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
+[![Skills Count](https://img.shields.io/badge/Skills-872-brightgreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/MedClaw-Org)
 
 **The largest open-source medical AI skills library for Claude-based agent frameworks.**
 
-*923 curated skills · Clinical · Genomics · Drug Discovery · Bioinformatics · Medical Devices*
+*872 curated skills · Clinical · Genomics · Drug Discovery · Bioinformatics · Medical Devices*
 
 [English](#) | [中文](README_zh.md)
 
@@ -21,7 +21,7 @@
 
 ## What Is This?
 
-**OpenClaw Medical Skills** is a curated collection of **923 AI agent skills** covering the full spectrum of biomedical and clinical research. These skills are designed for [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) — Claude-based personal AI assistant frameworks — and transform a general-purpose AI agent into a powerful medical and scientific research companion.
+**OpenClaw Medical Skills** is a curated collection of **872 AI agent skills** covering the full spectrum of biomedical and clinical research. These skills are designed for [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) — Claude-based personal AI assistant frameworks — and transform a general-purpose AI agent into a powerful medical and scientific research companion.
 
 Each skill is a self-contained module (a `SKILL.md` file) that:
 - Teaches the agent specialized domain knowledge and workflows
@@ -168,7 +168,7 @@ Your agent should list the installed skills with their capabilities.
 | BioOS Extended Suite | 285+ | End-to-end workflows, oncology agents, clinical AI |
 | ClawBio Pipelines | 22 | scRNA orchestration, GWAS, ancestry, pharmacogenomics |
 | Simulation & Ontology | 17 | Ontology validation, numerical solvers, mesh generation |
-| **Total** | **923** | |
+| **Total** | **872** | |
 
 ---
 
@@ -1488,88 +1488,6 @@ Your agent should list the installed skills with their capabilities.
 | virtual-lab-agent | Virtual lab agent for in silico experiment simulation and protocol optimization. |
 | data-visualization-expert | Expert data visualization for complex scientific and clinical datasets. |
 | lobster-bioinformatics | Run bioinformatics analyses via Lobster AI: scRNA-seq, bulk RNA-seq, literature mining, dataset discovery, QC, and visualization. |
-
----
-
-### Medical Device Software (AminAlam/meddev-agent-skills)
-
-#### Regulatory Standards
-| Skill | Description |
-|-------|-------------|
-| iec-62304 | IEC 62304 medical device software lifecycle: class A/B/C controls, development planning, verification. |
-| iso-14971 | ISO 14971 risk management: hazard identification, risk controls, traceability matrix, residual risk. |
-| fda-premarket | FDA premarket submission (510k/PMA) software documentation, SBOM, cybersecurity requirements. |
-| eu-mdr | EU MDR software expectations: Rule 11, UDI, GSPR, clinical evaluation, post-market surveillance. |
-| iec-62443 | IEC 62443 industrial cybersecurity for connected medical devices: zones, conduits, SL levels. |
-| 21-cfr-part-11 | 21 CFR Part 11 electronic records and signatures: audit trails, access controls, validation. |
-
-#### Architecture & Safety
-| Skill | Description |
-|-------|-------------|
-| safety-classification | Apply software safety classification (A/B/C) to architecture design and testing rigor. |
-| separation-of-concerns | Partition safety-critical boundaries, modular architecture for medical device software. |
-| state-machines | Safe state machine design: transitions, forbidden states, testing patterns for medical devices. |
-| fault-tolerance | Detection, degradation, watchdog timers, and recovery strategies for device safety. |
-| defensive-design | Input/output validation, assertions, boundary checks, and error handling for medical firmware. |
-
-#### Firmware
-| Skill | Description |
-|-------|-------------|
-| embedded-c | MISRA-C aligned embedded C guidance for medical device firmware. |
-| embedded-cpp | Controlled C++ feature set for safety-critical embedded medical devices. |
-| rtos-patterns | RTOS task design: priorities, IPC, timing analysis, priority inversion avoidance. |
-| hardware-abstraction | HAL layering patterns for testable and portable medical device firmware. |
-| interrupt-handling | ISR structure, critical sections, latency analysis, and interrupt testing. |
-| power-management | Sleep/wake cycles, battery monitoring, graceful shutdown for battery-powered devices. |
-
-#### Connectivity
-| Skill | Description |
-|-------|-------------|
-| ble-medical | Secure BLE services for PHI-bearing medical devices: GATT profiles, pairing, encryption. |
-| wifi-medical | WPA3/enterprise WiFi for medical devices: certificate management, coexistence, HIPAA. |
-| usb-medical | USB class selection, enumeration safety, and cybersecurity for medical USB devices. |
-| interoperability | HL7 FHIR/IHE integration, medical terminology standards, and API design for device connectivity. |
-
-#### Security
-| Skill | Description |
-|-------|-------------|
-| authentication | User/device authentication, session management, RBAC for medical device access control. |
-| encryption | Cryptographic algorithms, KDFs, data at rest and in transit for medical devices. |
-| secure-boot | Boot chain validation, signatures, rollback protection for medical device firmware. |
-| secure-ota | Signed OTA updates, atomicity, rollback, and server hardening for device updates. |
-| key-management | Cryptographic key generation, storage, rotation, and revocation for medical devices. |
-| threat-modeling | STRIDE threat modeling, attack surface analysis, and security control mapping. |
-
-#### Testing & Verification
-| Skill | Description |
-|-------|-------------|
-| unit-testing | Unit testing frameworks, coverage by class A/B/C, embedded mocks for medical software. |
-| integration-testing | Hardware/software integration testing: interfaces, HIL environments, traceability. |
-| static-analysis | Static code analysis tools: MISRA configs, CERT C, defect triage workflow. |
-| dynamic-analysis | Runtime checks, thread safety analysis, memory profiling for embedded systems. |
-| fuzz-testing | Input/protocol fuzzing, crash analysis, and security-focused fuzz testing. |
-| code-coverage | Statement, branch, MC/DC coverage metrics and CI integration for IEC 62304. |
-| hardware-in-loop | HIL test fixtures, automation, timing analysis, and parallelism for device testing. |
-
-#### Documentation & Data
-| Skill | Description |
-|-------|-------------|
-| design-docs | Software Architecture Document (SAD), Software Design Document (SDD), SOUP documentation. |
-| test-docs | Test plans, protocols, and reports formatted for regulatory submission. |
-| traceability | Bidirectional traceability matrices: requirements → design → test → risk controls. |
-| code-comments | Traceability annotations, risk tags, and test reference comments in code. |
-| inline-docs | Intentful inline comments, trace tags, and API notes for medical device code. |
-| change-control | Change request process, impact analysis, regression, and configuration management. |
-| phi-handling | PHI identification, de-identification, encryption, and retention for medical devices. |
-| data-integrity | CRC/ECC, validation, and storage/transit integrity for medical device data. |
-| audit-logging | What/how to log, protection mechanisms, and retention policies for medical audit trails. |
-
-#### CI/CD
-| Skill | Description |
-|-------|-------------|
-| pipeline-design | Regulated CI/CD pipeline stages, artifact management, and audit trail. |
-| automated-testing | Automated test strategy, hardware integration, and flake handling. |
-| release-management | Versioning, branching, verification, and monitoring for medical device releases. |
 
 ---
 
